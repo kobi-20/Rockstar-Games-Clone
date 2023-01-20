@@ -27,4 +27,5 @@ socialBtn.addEventListener('click', () => {
 const mainNavBtn = document.getElementById('main-navBtn');
 mainNavBtn.addEventListener('click', () => {
     isNavOpen = (isNavOpen == false)? true  : false
+    mainNavBtn.classList.toggle('menu-icon-open');
 })
