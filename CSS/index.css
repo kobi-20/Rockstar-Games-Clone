@@ -20,6 +20,7 @@ html,body {
   width: 100%;
   justify-content: center;
   align-items: stretch;
+  z-index: 250;
   transform: translateY(0);
   transition: 0.5s;
   transition-delay: 0.2s;
